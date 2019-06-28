@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/activity_jieqi"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/cesuan_item"/>
+
+    <com.everglow.mimixiao.HeaderGridView
+        android:id="@+id/gv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:horizontalSpacing="5.0dip"
+        android:numColumns="4"
+        android:verticalSpacing="5.0dip"/>
+</LinearLayout>

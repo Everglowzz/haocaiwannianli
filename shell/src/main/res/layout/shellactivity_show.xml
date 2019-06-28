@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/tianqibg"
+    android:orientation="vertical"
+    
+    >
+<android.support.v7.widget.Toolbar
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    app:title="@string/app_name"
+    app:titleTextColor="@color/white"
+    android:layout_height="50dp">
+    
+</android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/im1"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/im1"/>
+
+    <ImageView
+        android:id="@+id/im2"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/im2"/>
+
+    <ImageView
+        android:id="@+id/im3"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/im3"/>
+
+    <ImageView
+        android:id="@+id/im4"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/im4"/>
+
+
+</LinearLayout>

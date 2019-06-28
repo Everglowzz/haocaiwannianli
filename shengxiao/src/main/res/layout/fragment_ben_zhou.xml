@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_margin="5.0dip"
+            android:layout_weight="1.0"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="整体运势:"
+                    android:textColor="#ff282828"
+                    android:textSize="18.0sp"/>
+
+                <TextView
+                    android:id="@+id/tv00"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:padding="5.0dip"
+                    android:textColor="@color/text_color_00bcd4"
+                    android:textSize="16.0sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="爱情运势:"
+                    android:textColor="#ff282828"
+                    android:textSize="18.0sp"/>
+
+                <TextView
+                    android:id="@+id/tv01"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:padding="5.0dip"
+                    android:textColor="@color/text_color_00bcd4"
+                    android:textSize="16.0sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_margin="5.0dip"
+            android:layout_weight="1.0"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="事业学业:"
+                    android:textColor="#ff282828"
+                    android:textSize="18.0sp"/>
+
+                <TextView
+                    android:id="@+id/tv02"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:padding="5.0dip"
+                    android:textColor="@color/text_color_00bcd4"
+                    android:textSize="16.0sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="财富运势:"
+                    android:textColor="#ff282828"
+                    android:textSize="18.0sp"/>
+
+                <TextView
+                    android:id="@+id/tv03"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:padding="5.0dip"
+                    android:textColor="@color/text_color_00bcd4"
+                    android:textSize="16.0sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_margin="5.0dip"
+            android:layout_weight="1.0"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="健康运势:"
+                    android:textColor="#ff282828"
+                    android:textSize="18.0sp"/>
+
+                <TextView
+                    android:id="@+id/tv04"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:padding="5.0dip"
+                    android:textColor="@color/text_color_00bcd4"
+                    android:textSize="16.0sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_margin="5.0dip"
+            android:layout_weight="1.0"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="幸运颜色:"
+                    android:textColor="#ff282828"
+                    android:textSize="18.0sp"/>
+
+                <TextView
+                    android:id="@+id/tv05"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:padding="5.0dip"
+                    android:textColor="@color/text_color_00bcd4"
+                    android:textSize="16.0sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="幸运星座:"
+                    android:textColor="#ff282828"
+                    android:textSize="18.0sp"/>
+
+                <TextView
+                    android:id="@+id/tv06"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:padding="5.0dip"
+                    android:textColor="@color/text_color_00bcd4"
+                    android:textSize="16.0sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_margin="5.0dip"
+            android:layout_weight="1.0"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="提防星座:"
+                    android:textColor="#ff282828"
+                    android:textSize="18.0sp"/>
+
+                <TextView
+                    android:id="@+id/tv07"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:padding="5.0dip"
+                    android:textColor="@color/text_color_00bcd4"
+                    android:textSize="16.0sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_margin="5.0dip"
+            android:layout_weight="1.0"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="短评:"
+                    android:textColor="#ff282828"
+                    android:textSize="18.0sp"/>
+
+                <TextView
+                    android:id="@+id/tv08"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:padding="5.0dip"
+                    android:textColor="@color/text_color_00bcd4"
+                    android:textSize="16.0sp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="20.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_weight="6.0"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dip"
+            android:drawableLeft="@drawable/zhengti"
+            android:drawablePadding="5.0dip"
+            android:gravity="center_vertical"
+            android:text="整体运势"
+            android:textColor="#ff282828"
+            android:textSize="18.0sp"/>
+
+        <TextView
+            android:id="@+id/tv_00"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dip"
+            android:lineSpacingMultiplier="1.5"
+            android:padding="10.0dip"
+            android:text=""
+            android:textColor="#ff383838"
+            android:textSize="16.0sp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dip"
+            android:drawableLeft="@drawable/aiqing"
+            android:drawablePadding="5.0dip"
+            android:gravity="center_vertical"
+            android:text="爱情运势"
+            android:textColor="#ff282828"
+            android:textSize="18.0sp"/>
+
+        <TextView
+            android:id="@+id/tv_01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dip"
+            android:lineSpacingMultiplier="1.5"
+            android:padding="10.0dip"
+            android:textColor="#ff383838"
+            android:textSize="16.0sp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dip"
+            android:drawableLeft="@drawable/shiye"
+            android:drawablePadding="5.0dip"
+            android:gravity="center_vertical"
+            android:text="事业学业"
+            android:textColor="#ff282828"
+            android:textSize="18.0sp"/>
+
+        <TextView
+            android:id="@+id/tv_02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dip"
+            android:lineSpacingMultiplier="1.5"
+            android:padding="10.0dip"
+            android:textColor="#ff383838"
+            android:textSize="16.0sp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dip"
+            android:drawableLeft="@drawable/caifu"
+            android:drawablePadding="5.0dip"
+            android:gravity="center_vertical"
+            android:text="财富运势"
+            android:textColor="#ff282828"
+            android:textSize="18.0sp"/>
+
+        <TextView
+            android:id="@+id/tv_03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dip"
+            android:lineSpacingMultiplier="1.5"
+            android:padding="10.0dip"
+            android:textColor="#ff383838"
+            android:textSize="16.0sp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dip"
+            android:drawableLeft="@drawable/jiankang"
+            android:drawablePadding="5.0dip"
+            android:gravity="center_vertical"
+            android:text="健康运势"
+            android:textColor="#ff282828"
+            android:textSize="18.0sp"/>
+
+        <TextView
+            android:id="@+id/tv_04"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dip"
+            android:lineSpacingMultiplier="1.5"
+            android:padding="10.0dip"
+            android:textColor="#ff383838"
+            android:textSize="16.0sp"/>
+    </LinearLayout>
+</LinearLayout>

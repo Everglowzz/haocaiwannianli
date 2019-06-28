@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@id/tv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="5.0dip"
+        android:text="sdfdsfsdfsdfdsfw胜多负少的发送的地方少点发送的发送的发送大法师地方少点发送的发送的"
+        android:textColor="#ff383838"
+        android:textSize="16.0sp"/>
+</LinearLayout>

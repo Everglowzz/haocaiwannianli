@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <com.android.calendarlibrary.CollapseCalendarView
+        android:id="@+id/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="horizontal">
+
+
+        <Switch
+            android:id="@+id/switch_china_day"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="显示农历"
+
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_changemode"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/cal_color_white"
+            android:background="@drawable/button_shape"
+            android:text="切换星月"
+
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_today"
+            android:textColor="@color/cal_color_white"
+            android:background="@drawable/button_shape"
+            android:layout_height="30dp"
+            android:text="回到今天"
+
+            />
+    </LinearLayout>
+</RelativeLayout>

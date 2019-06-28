@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/activity_jie_ment_sou_suo"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="10.0dip">
+
+        <EditText
+            android:id="@+id/et"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/view_click_bg_007"
+            android:drawableLeft="@drawable/zgjm_sousuo"
+            android:drawablePadding="5.0dip"/>
+
+        <Button
+            android:layout_width="70.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:background="@drawable/view_click_bg_007"
+            android:onClick="sousuo"
+            android:text="搜索"
+            android:textSize="18.0sp"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="20.0dip"/>
+</LinearLayout>

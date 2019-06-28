@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+
+
+
+    <tab
+        id="@+id/tab_home"
+        icon="@mipmap/tt15"
+        title="美女" />
+    <tab
+        id="@+id/tab_shop"
+        icon="@mipmap/tt14"
+        title="穿搭" />
+    <tab
+        id="@+id/tab_discover"
+        icon="@mipmap/tt8"
+        title="美妆" />
+
+</tabs>

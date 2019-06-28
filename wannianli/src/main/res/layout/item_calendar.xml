@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/layout"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@android:color/white"
+             android:minHeight="40dp"
+             android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/btn_lucky"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_gravity="right"
+        android:layout_margin="2.5dp"
+        android:background="@drawable/circle_red"
+        android:text="吉"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="7dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_solar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tv_lunar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="十二"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+</FrameLayout>
